@@ -4,9 +4,10 @@
     "name": "Chef Tony Khan",
     "image" : "https://pbs.twimg.com/media/EXwjFTjU4AA-KuX.jpg",
     "bio": "Chef Tony Khan is a renowned chef and restaurateur in Bangladesh, known for his fusion cuisine and innovative dishes. He started his culinary career in London and has worked in several Michelin-starred restaurants. He returned to Bangladesh in 2002 to start his own restaurant, 'Khan's Kitchen'.",
+    "number_of_recipes" : 7,
     "recipes": [
       {
-        "name": "Spicy Thai Basil Chicken",
+        "first_recipe_name": "Spicy Thai Basil Chicken",
         "ingredients": [
           "500g boneless chicken breast, sliced",
           "2 cups Thai basil leaves",
@@ -18,7 +19,7 @@
         "rating": 5
       },
       {
-        "name": "Prawn and Mango Salad",
+        "second_recipe_name": "Prawn and Mango Salad",
         "ingredients": [
           "500g prawns, peeled and deveined",
           "2 ripe mangoes, peeled and sliced",
@@ -30,7 +31,7 @@
         "rating": 4.5
       },
       {
-        "name": "Grilled Lemon Herb Fish",
+        "third_recipe_name": "Grilled Lemon Herb Fish",
         "ingredients": [
           "4 fish fillets (such as tilapia or sea bass)",
           "1/4 cup olive oil",
@@ -43,29 +44,17 @@
       }
     ],
     "years_of_experience": 20,
-    "likes": [
-      {
-        "name": "Thai cuisine",
-        "rating": 5
-      },
-      {
-        "name": "Fusion cuisine",
-        "rating": 5
-      },
-      {
-        "name": "Innovative dishes",
-        "rating": 5
-      }
-    ]
+    "likes": 4
   },
   {
     "id": 2,
     "name": "Chef Muniruzzaman",
+    "number_of_recipes" : 6,
     "image" : "https://ibtbd.net/wp-content/uploads/2019/11/Chef-Moniruzzaman.jpg",
     "bio": "Chef Muniruzzaman is a Bangladeshi celebrity chef who is known for his traditional cuisine with a modern twist. He started his career as a chef in the early 90s and has since worked in several prestigious restaurants and hotels in Bangladesh and abroad. Chef Muniruzzaman is also a cookbook author and has appeared on several TV shows.",
     "recipes": [
       {
-        "name": "Prawn Malai Curry",
+        "first_recipe_name": "Prawn Malai Curry",
         "ingredients": [
           "500g prawns, peeled and deveined",
           "2 cups coconut milk",
@@ -80,7 +69,7 @@
         "rating": 4.5
       },
       {
-        "name": "Roshomalai",
+        "second_recipe_name": "Roshomalai",
         "ingredients": [
           "1 liter milk",
           "1/4 cup lemon juice",
@@ -95,7 +84,7 @@
         "rating": 5
       },
       {
-        "name": "Dhakai Beef Bhuna",
+        "third_recipe_name": "Dhakai Beef Bhuna",
         "ingredients": [
           "500g beef, cut into cubes",
           "1 cup thinly sliced onions",
@@ -108,18 +97,20 @@
           "1/2 cup water",
           "1/4 cup oil"
         ],
-        "cooking_method": "1. Heat oil in a pan over medium-high Rinse the curd with cold water to remove any traces of lemon juice. 4. Hang the curd in the muslin cloth for 30 minutes to remove any excess water. 5. In another pan, add water, sugar, cardamom pods, and saffron strands and bring to a boil. 6. Add the balls of curd (called 'chena') to the sugar syrup and let it cook for 10-15 minutes until they are soft and spongy. 7. Remove from heat and let it cool. 8. Garnish with chopped almonds and pistachios and serve chilled."
+        "cooking_method": "1. Heat oil in a pan over medium-high Rinse the curd with cold water to remove any traces of lemon juice. 4. Hang the curd in the muslin cloth for 30 minutes to remove any excess water. 5. In another pan, add water, sugar, cardamom pods, and saffron strands and bring to a boil. 6. Add the balls of curd (called 'chena') to the sugar syrup and let it cook for 10-15 minutes until they are soft and spongy. 7. Remove from heat and let it cool. 8. Garnish with chopped almonds and pistachios and serve chilled.",
+        "rating": 5
       }
     ]
   },
   {
     "id": 3,
     "name": "Chef Tareq Taylor",
+    "number_of_recipes" : 3,
     "image" : "https://2.bp.blogspot.com/-xddFuvgFFkQ/VFDO3mx7VVI/AAAAAAAAPMc/8EM1x5TSCAs/s1600/05.jpg",
     "bio": "Chef Tareq Taylor is a Swedish-Bangladeshi chef who is known for his modern Scandinavian cooking with a global influence. He is a cookbook author, TV host, and restaurateur. Chef Tareq has worked in several Michelin-starred restaurants and has won several awards for his culinary expertise.",
     "recipes": [
       {
-        "name": "Grilled Shrimp Skewers with Chermoula Sauce",
+        "first_recipe_name": "Grilled Shrimp Skewers with Chermoula Sauce",
         "ingredients": [
           "1 pound large shrimp, peeled and deveined",
           "1/4 cup olive oil",
@@ -135,7 +126,7 @@
         "rating": 4
       },
       {
-        "name": "Smoked Salmon and Dill Potato Salad",
+        "second_recipe_name": "Smoked Salmon and Dill Potato Salad",
         "ingredients": [
           "1 pound baby potatoes, halved",
           "1/4 cup mayonnaise",
@@ -149,7 +140,7 @@
         "rating": 4.5
       },
       {
-        "name": "Braised Beef Short Ribs with Red Wine Sauce",
+        "third_recipe_name": "Braised Beef Short Ribs with Red Wine Sauce",
         "ingredients": [
           "4 beef short ribs",
           "1 tablespoon olive oil",
@@ -171,10 +162,11 @@
     "id": 4,
     "name": "Chef Shawkat Osman",
     "image" : "https://1.bp.blogspot.com/-aIsd0ndB07E/U0tS5zk17kI/AAAAAAAAVkw/uHcDx23F5RI/s1600/021.JPG",
+    "number_of_recipes" : 3,
     "bio": "Chef Shawkat Osman is a renowned Bangladeshi chef who specializes in traditional Bangladeshi cuisine. He has over 30 years of experience in the culinary industry and has worked in several top-rated restaurants around the world. Chef Shawkat is also a cookbook author and TV personality, and has won numerous awards for his contributions to the culinary arts.",
     "recipes": [
       {
-        "name": "Shorshe Ilish (Mustard Hilsa)",
+        "first_recipe_name": "Shorshe Ilish (Mustard Hilsa)",
         "ingredients": [
           "1. 4 hilsa fish steaks",
           "2. 4 tablespoons mustard oil",
@@ -188,7 +180,7 @@
         "rating": 4.5
       },
       {
-        "name": "Bhuna Khichuri (Spiced Rice and Lentils)",
+        "second_recipe_name": "Bhuna Khichuri (Spiced Rice and Lentils)",
         "ingredients": [
           "1. 1 cup basmati rice",
           "2. 1 cup red lentils",
@@ -208,7 +200,7 @@
         "rating": 4
       },
       {
-        "name": "Braised Beef Short Ribs with Red Wine Sauce",
+        "third_recipe_name": "Braised Beef Short Ribs with Red Wine Sauce",
         "ingredients": [
           "4 beef short ribs",
           "1 tablespoon olive oil",
@@ -229,18 +221,19 @@
   {
     "id" : 5,
     "name": "Shahed Ali",
+    "number_of_recipes" : 5,
     "image" : "https://scontent.fdac13-1.fna.fbcdn.net/v/t39.30808-6/292440537_469071111887521_4721646032497868038_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeE3w3-DDmoT3OJCPUCYju1dJL_pI47KjNEkv-kjjsqM0QK-l4BvK7JXru9-r3AbGEedysbMXtjT-hYH8Ha500v3&_nc_ohc=KyyFmOZs_k0AX-MFblP&_nc_ht=scontent.fdac13-1.fna&oh=00_AfDbQrXMgQ5KwgDHtEUJ4-7OoPUZGQeW94Xhb03B5wHiLA&oe=6454A14B",
     "bio": "Chef Shahed Ali is a popular Bangladeshi chef, TV personality, and cookbook author. He is known for his expertise in traditional Bangladeshi cuisine and has hosted several cooking shows on television. With over 20 years of experience in the culinary industry, Chef Shahed has become a household name in Bangladesh and has inspired many home cooks to experiment with local ingredients and flavors.",
     "experience": 20,
     "recipes": [
       {
-        "name": "Pitha",
+        "first_recipe_name": "Pitha",
         "ingredients": ["Rice flour", "Sugar", "Coconut", "Milk", "Cardamom"],
         "method": "1. Combine rice flour, sugar, and coconut. 2. Add milk gradually to form a smooth batter. 3. Add cardamom and mix well. 4. Heat a non-stick pan and drop spoonfuls of batter to make small pancakes. 5. Cook until golden brown on both sides. Serve hot.",
         "rating": 4.5
       },
       {
-        "name": "Bhorta",
+        "second_recipe_name": "Bhorta",
         "ingredients": [
           "Eggplant",
           "Onion",
@@ -252,7 +245,7 @@
         "rating": 4.2
       },
       {
-        "name": "Shorshe Ilish",
+        "third_recipe_name": "Shorshe Ilish",
         "ingredients": [
           "Hilsa fish",
           "Mustard seeds",
@@ -268,12 +261,13 @@
   {
     "id" : 6,
     "name": "Tommy Miah",
+    "number_of_recipes" : 4,
     "image" : "https://tds-images.thedailystar.net/sites/default/files/styles/amp_metadata_content_image_min_696px_wide/public/feature/images/tommy_miah.jpg",
     "bio": "Tommy Miah is a Bangladeshi-born British celebrity chef, restaurateur, and entrepreneur. He has written several cookbooks and has appeared on various TV shows. Miah is the founder of the Tommy Miah's Hospitality Management Company, which manages a number of restaurants and catering businesses.",
     "experience": "Over 40 years",
     "recipes": [
       {
-        "name": "Chicken Bhuna",
+        "first_recipe_name": "Chicken Bhuna",
         "ingredients": [
           "Chicken",
           "Onions",
@@ -291,7 +285,7 @@
         "rating": 4.8
       },
       {
-        "name": "Lamb Vindaloo",
+        "second_recipe_name": "Lamb Vindaloo",
         "ingredients": [
           "Lamb",
           "Onions",
@@ -311,7 +305,7 @@
         "rating": 4.6
       },
       {
-        "name": "Prawn Biryani",
+        "third_recipe_name": "Prawn Biryani",
         "ingredients": [
           "Prawns",
           "Basmati Rice",
